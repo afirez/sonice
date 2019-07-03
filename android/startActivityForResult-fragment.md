@@ -1,6 +1,6 @@
 # startActivityForResult
 
-![](https://raw.githubusercontent.com/afirez/sonice/master/android/startActivityForResult-fragment.jpg)
+![](https://raw.githubusercontent.com/afirez/sonice/master/android/assets/startActivityForResult-fragment.jpg)
 
 ~~~
 // android.app.Fragment.class#startActivityForResult
