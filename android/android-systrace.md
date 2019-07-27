@@ -137,3 +137,13 @@ Options:
 
 ## TraceView
 
+## DDMS
+
+.trace和.html均可使用DDMS生成，AndroidStudio3不再有TraceView，可通过android sdk/toos/monitor打开。
+
+### 启动 Monitor
+
+```
+
+$ $ANDROID_HOME/tools/monitor
+```
