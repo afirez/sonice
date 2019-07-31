@@ -63,6 +63,8 @@ python $ANDROID_HOME/platform-tools/systrace/systrace.py -o afirezOnTrace.html \
  input \
  res
 
+// 配合 gfxinfo 数据分析
+adb shell dumpsys gfxinfo
 ```
 
 ![systrace-usecase](https://raw.githubusercontent.com/afirez/sonice/master/android/assets/systrace-usecase.jpg)
@@ -135,11 +137,7 @@ Options:
                         computers. See https://github.com/google/walt
 ```
 
-## TraceView
-
 ## DDMS
-
-.trace和.html均可使用DDMS生成，AndroidStudio3不再有TraceView，可通过android sdk/toos/monitor打开。
 
 ### 启动 Monitor
 
@@ -147,3 +145,29 @@ Options:
 
 $ $ANDROID_HOME/tools/monitor
 ```
+
+### Capture system trace using Android Systrace
+
+### Start Method Profiling / Stop Method Profiling
+
+.trace 和 .html 均可使用 DDMS 生成，AndroidStudio3 不再有 TraceView，可通过 android sdk/toos/monitor 打开。
+
+### Dump HPROF file
+
+配和 MAT 分析内存。
+
+### Dump View Hierarchy for Automator UI
+
+### Trace OpenGL calls
+
+## Andorid monitor
+
+### dump java heap
+
+- Analyzer tasks - DetectLeakedActivities
+
+## Andorid Profiler
+
+### dump java heap
+
+### Record memory allocations
